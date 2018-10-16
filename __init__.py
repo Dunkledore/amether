@@ -51,4 +51,5 @@ async def uploaded_file(filename):
 
 
 
-app.run()
+if __name__ == "__main__":
+    app.run()
